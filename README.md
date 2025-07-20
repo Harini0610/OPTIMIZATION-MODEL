@@ -22,9 +22,9 @@ In this project, I used Python along with the pulp library, which is a powerful 
 
 1. I first created decision variables:
 
- *Binary variables to indicate whether a warehouse is used.
+ * Binary variables to indicate whether a warehouse is used.
 
- *Continuous variables to represent how much quantity is shipped from each warehouse to each city.
+ * Continuous variables to represent how much quantity is shipped from each warehouse to each city.
 
 2. Then I wrote the objective function to minimize:
 
@@ -48,5 +48,7 @@ The visualization gives a nice real-world picture of how goods flow from warehou
 
 Overall, Task 4 gave me a solid grip on solving linear programming problems in real-world scenarios like logistics and supply chain. It helped me connect mathematical modeling with business decision-making and data visualization—making this task both analytical and creative!
 
+# OUTPUT
 
+<img width="1845" height="922" alt="Image" src="https://github.com/user-attachments/assets/74f27a7a-2e68-4768-a7a7-49b8271eb0e0" />
 
