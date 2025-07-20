@@ -28,10 +28,11 @@ In this project, I used Python along with the pulp library, which is a powerful 
 
 2. Then I wrote the objective function to minimize:
 
-Total fixed cost for using warehouses + Total shipping cost.
+* Total fixed cost for using warehouses + Total shipping cost.
 
 3. I added constraints:
-Each city’s demand must be fully satisfied.
+   
+* Each city’s demand must be fully satisfied.
 Shipping should only happen from warehouses that are open.
 
 After solving the problem using pulp, I printed the total cost, warehouses selected, and detailed shipment quantities. The LP solution gave an optimal cost of $12,560, and only Warehouse W1 was chosen. All demand was fulfilled efficiently from just this one warehouse.
